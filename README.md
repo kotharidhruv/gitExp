@@ -167,5 +167,29 @@ git merge - is used to integrate branches together. This command combines change
 git merge<BranchName>
 ```
 
+git clone - is used to create a local working copy of an existing remote repository. This command downloads the remote repository to the computer.
+```bash
+git clone <RemoteUrl>
+```
+
+git pull - is used to fetch and merge changes from the remote repository to the local repository. If you want to copy all files from the master branch of the remote repository to the local repository by following command
+```bash
+git pull origin master 
+```
+
+git push - is used to transfer the commits or pushing the content from the local repository to the remote repository. Once the local repository has been changes with the required changes, this command is used to push local changes to the main branch.
+```bash
+git push -u origin master
+```
+
+git stash -  takes your modified tracked files and saves it on a pile of incomplete changes that you can reapply at any time. You can use stash pop to go back and work on it. This command helps a developer to switch branches to work on something else without committing to incomplete work.
+```bash
+git stash -u
+```
+git log - shows the order of the commit history of a repository. It helps in understanding the state of the current branch by showing the commits that lead to this state.
+```bash
+git log
+```
+
 
 
